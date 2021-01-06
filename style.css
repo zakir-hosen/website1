@@ -1,5 +1,7 @@
 body {
     font-family: adamina;
+    margin: 0;
+    padding: 0;
 }
 h1 {
     font-size: 50px ;
@@ -8,4 +10,29 @@ h1 {
 .colorize {
     color: orange;
 }
-   
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+.half-width img {
+    width: 100%;
+}
+section {
+    height: 100px;
+}
+.top-banner {
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.hire-me {
+    text-decoration: none;
+
+    background-image: linear-gradient(lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
